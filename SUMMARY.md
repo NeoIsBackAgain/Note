@@ -86,18 +86,22 @@
 
 * [1\_訊息收集](1-xun-xi-shou-ji/1-xun-xi-shou-ji.md)
 
-## Group 1
+## 2\_漏洞前準備
 
-* [Page 1](group-1/page-1.md)
+* [Page 1](2-lou-dong-qian-zhun-bei/page-1.md)
 
-## Group 2
+## 3\_漏洞前利用
 
-* [Page 3](group-2/page-3.md)
+* [Page 3](3-lou-dong-qian-li-yong/page-3.md)
 
-## Group 3
+## 4\_滲透
 
-* [Page 4](group-3/page-4.md)
+* [Page 4](4-shen-tou/page-4.md)
 
-## Group 4
+## 5\_橫向移動
 
-* [Page 5](group-4/page-5.md)
+* [Page 5](5-heng-xiang-yi-dong/page-5.md)
+
+## 6\_NetExec
+
+* [Page 5](6_netexec/page-5.md)
