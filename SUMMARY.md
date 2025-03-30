@@ -78,8 +78,6 @@
     * [Web 批量分配漏洞 ( Ruby on Rails)](3-lou-dong-li-yong/fu-wu-lou-dong-li-yong/chang-jian-ying-yong-cheng-shi/web-pi-liang-fen-pei-lou-dong-ruby-on-rails.md)
     * [攻擊連接到服務的應用程式(SSH)](3-lou-dong-li-yong/fu-wu-lou-dong-li-yong/chang-jian-ying-yong-cheng-shi/gong-ji-lian-jie-dao-fu-wu-de-ying-yong-cheng-shi-ssh.md)
 
-## 內部滲透測試
-
 ## 4\_滲透
 
 * [Linux 權限提升](4-shen-tou/linux-quan-xian-ti-sheng.md)
@@ -88,12 +86,19 @@
 
 ## 5\_橫向移動
 
-* [Page 5](5-heng-xiang-yi-dong/page-5.md)
+* [工具](5-heng-xiang-yi-dong/gong-ju.md)
+* [跳板 Pivoting](5-heng-xiang-yi-dong/tiao-ban-pivoting.md)
+* [AD 橫向移動](5-heng-xiang-yi-dong/ad-heng-xiang-yi-dong.md)
+* [Linux 橫向移動](5-heng-xiang-yi-dong/linux-heng-xiang-yi-dong.md)
+* [Windows 橫向移動](5-heng-xiang-yi-dong/windows-heng-xiang-yi-dong.md)
 
 ## 6\_NetExec
 
-* [Page 5](6_netexec/page-5.md)
-
-## Group 2
-
-* [Page 7](group-2/page-7.md)
+* [常見模組](6_netexec/chang-jian-mo-zu.md)
+* [命令執行](6_netexec/ming-ling-zhi-xing.md)
+* [漏洞掃描模組](6_netexec/lou-dong-sao-miao-mo-zu.md)
+* [模組使用](6_netexec/mo-zu-shi-yong.md)
+* [憑證轉儲](6_netexec/ping-zheng-zhuan-chu.md)
+* [Kerberos 認證](6_netexec/kerberos-ren-zheng.md)
+* [LDAP RDP 枚舉](6_netexec/ldap-rdp-mei-ju.md)
+* [SMB 枚舉](6_netexec/smb-mei-ju.md)
