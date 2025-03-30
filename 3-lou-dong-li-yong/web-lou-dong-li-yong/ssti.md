@@ -14,7 +14,7 @@
 
 [https://cheatsheet.hackmanit.de/template-injection-table/](https://cheatsheet.hackmanit.de/template-injection-table/)
 
-<kbd>${7\*7}</kbd><img src="../.gitbook/assets/螢幕截圖 2025-03-15 00.53.50.png" alt="" data-size="original">
+<kbd>${7\*7}</kbd><img src="../../.gitbook/assets/螢幕截圖 2025-03-15 00.53.50.png" alt="" data-size="original">
 {% endstep %}
 
 {% step %}

@@ -104,7 +104,7 @@ http://splunk.inlanefreight.local:8000
 
 *   選：**Manage Apps → Install app from file → 選 updater.tar.gz → Upload**
 
-    <figure><img src="../../.gitbook/assets/螢幕截圖 2025-03-19 16.00.37.png" alt="" width="200"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/螢幕截圖 2025-03-19 16.00.37.png" alt="" width="200"><figcaption></figcaption></figure>
 
 ***
 

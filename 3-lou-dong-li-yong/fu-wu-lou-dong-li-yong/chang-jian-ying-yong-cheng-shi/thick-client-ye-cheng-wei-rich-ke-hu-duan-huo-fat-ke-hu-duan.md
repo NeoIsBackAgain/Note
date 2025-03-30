@@ -49,7 +49,7 @@ C:\Apps>
 
 為了捕獲文件，需要更改`Temp`資料夾的權限以不允許刪除文件。為此，我們右鍵單擊資料夾 `C:\Users\Matt\AppData\Local\Temp` ，然後在`Properties` -> `Security` -> `Advanced` -> `cybervaca` -> `Disable inheritance` -> `Convert inherited permissions into explicit permissions on this object` -> `Edit` -> `Show advanced permissions`下，取消選擇`Delete subfolders and files`以及`Delete`複選框。
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 \
 
@@ -178,7 +178,7 @@ PS C:\ProgramData>
 {% step %}
 讓我們啟動`x64dbg` ，導航到`Options` - > `Preferences` ，然後取消選中除`Exit Breakpoint`之外的所有選項：
 
-![](<../../.gitbook/assets/image (1).png>)\
+![](<../../../.gitbook/assets/image (1).png>)\
 
 
 
@@ -187,11 +187,11 @@ PS C:\ProgramData>
 {% step %}
 透過取消選取其他選項，偵錯將直接從應用程式的退出點開始，我們將避免瀏覽應用程式啟動前載入的任何`dll`檔案。然後，我們可以選擇`file` -> `open` ，並選擇`restart-service.exe`進行導入並開始偵錯。導入後，我們在`CPU`視圖內單擊滑鼠右鍵，然後`Follow in Memory Map` ：
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 檢查執行此階段的記憶體映射，特別感興趣的是大小為`0000000000003000`的映射，其類型為`MAP`且保護設定為`-RW--` 。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -199,7 +199,7 @@ PS C:\ProgramData>
 
 如果我們雙擊它，我們將在`ASCII`列中看到神奇位元組`MZ` ，這表示該檔案是[DOS MZ 執行檔](https://en.wikipedia.org/wiki/DOS_MZ_executable)。
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 \
 
@@ -240,7 +240,7 @@ Press any key to exit...
 {% endstep %}
 
 {% step %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 現在，我們可以透過將匯出的應用程式拖放到`DnSpy`可執行檔中來讀取其原始程式碼。
 
